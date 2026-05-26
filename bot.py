@@ -10,7 +10,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 TOKEN    = "8555848969:AAFZHN2eKOv3Mfw6INGSA-gJTTCsRNTtznI"
-ADMIN_IDS = [2313720, 7943821541]  # <- O'zingizni Telegram ID ni yozing (t.me/userinfobot dan oling)
+ADMIN_IDS = [2313720]  # <- O'zingizni Telegram ID ni yozing (t.me/userinfobot dan oling)
 
 bot = Bot(token=TOKEN)
 dp  = Dispatcher(storage=MemoryStorage())
